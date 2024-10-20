@@ -130,7 +130,7 @@ if __name__ == '__main__':
           if not succes:
               print("Ignoring empty camera frame.")
               continue
-
+          
           timestamp_ms = int(time.time() * 1000)
           
           frame_num += 1
